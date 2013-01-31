@@ -15,6 +15,7 @@ typedef enum {
 @protocol NMPaginatorDelegate
 @required
 - (void)paginator:(id)paginator didReceiveResults:(NSArray *)results;
+-(Class)paginatorModel;
 @optional
 - (void)paginatorDidFailToRespond:(id)paginator;
 - (void)paginatorDidReset:(id)paginator;
