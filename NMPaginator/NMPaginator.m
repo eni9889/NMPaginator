@@ -40,7 +40,7 @@
 - (void)setDefaultValues
 {
     self.total = 0;
-    self.page = 0;
+    self.page = -1;
     self.results = [NSMutableArray array];
     self.requestStatus = RequestStatusNone;
 }
